@@ -7,8 +7,8 @@ import sys
 
 def main() -> None:
     """Print each argument on a new line."""
-    for i, arg in enumerate(sys.argv[1:], start=1):
-        print(f"Argument {i}: {arg}")
+    for arg in sys.argv[1:]:
+        print(arg)
 
 
 if __name__ == "__main__":
